@@ -41,7 +41,7 @@ module.exports = env => {
               loader: 'preprocess-loader',
               options: {
                 TARGET: 'web',
-                LBRYNET_PROXY_URL: '/api_proxy/',
+                LBRYNET_PROXY_URL: '/api/proxy/',
                 ppOptions: {
                   type: 'js'
                 }
