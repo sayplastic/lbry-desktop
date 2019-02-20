@@ -159,7 +159,7 @@ export class SplashScreen extends React.PureComponent<Props, State> {
       this.setState({
         isRunning: true,
       });
-      Lbry.resolve({ uri: 'lbry://one' }).then(() => {
+      Lbry.resolve({ urls: ['lbry://one'] }).then(() => {
         // Only leave the load screen if the daemon version matched;
         // otherwise we'll notify the user at the end of the load screen.
 
